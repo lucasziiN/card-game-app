@@ -3335,6 +3335,18 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_card_0
+id iv_card_1
+id iv_card_10
+id iv_card_11
+id iv_card_2
+id iv_card_3
+id iv_card_4
+id iv_card_5
+id iv_card_6
+id iv_card_7
+id iv_card_8
+id iv_card_9
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3584,6 +3596,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_num_guesses
 id unchecked
 id uniform
 id unlabeled

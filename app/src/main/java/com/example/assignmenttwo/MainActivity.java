@@ -1,6 +1,10 @@
 package com.example.assignmenttwo;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +24,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onclickPlay(View v){
+        Toast.makeText(this,"Play", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, GameActivity.class);
+        startActivity(intent);
+    }
+
+    public void onclickLeaderboard(View v){
+        Toast.makeText(this,"Leaderboard", Toast.LENGTH_SHORT).show();
     }
 }

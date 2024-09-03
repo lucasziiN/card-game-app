@@ -12,16 +12,16 @@
         "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_memory_text.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_leaderboard.xml.flat",
-        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_leaderboard.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\xml\\backup_rules.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_leaderboard.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_leaderboard.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -56,8 +56,8 @@
         "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/layout/activity_main.xml"
+        "merged": "com.example.assignmenttwo.app-debug-31:/layout_activity_game.xml.flat",
+        "source": "com.example.assignmenttwo.app-main-33:/layout/activity_game.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
