@@ -3020,6 +3020,16 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable img_card_back
+drawable img_card_front_artist
+drawable img_card_front_astronaut
+drawable img_card_front_coder
+drawable img_card_front_doctor
+drawable img_card_front_police
+drawable img_card_front_scientist
+drawable img_card_front_welder
+drawable img_memory_banner
+drawable img_memory_text
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3711,7 +3721,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_game
+layout activity_leaderboard
 layout activity_main
+layout activity_player
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

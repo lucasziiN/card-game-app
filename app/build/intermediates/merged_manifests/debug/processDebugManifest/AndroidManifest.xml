@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.AssignmentTwo" >
         <activity
+            android:name="com.example.assignmenttwo.LeaderboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.assignmenttwo.PlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.assignmenttwo.GameActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.assignmenttwo.MainActivity"
             android:exported="true" >
             <intent-filter>

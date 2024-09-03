@@ -3019,6 +3019,16 @@ int drawable ic_mtrl_chip_checked_black 0x7f070097
 int drawable ic_mtrl_chip_checked_circle 0x7f070098
 int drawable ic_mtrl_chip_close_circle 0x7f070099
 int drawable ic_search_black_24 0x7f07009a
+int drawable img_card_back 0x7f0700e7
+int drawable img_card_front_artist 0x7f0700e8
+int drawable img_card_front_astronaut 0x7f0700e9
+int drawable img_card_front_coder 0x7f0700ea
+int drawable img_card_front_doctor 0x7f0700eb
+int drawable img_card_front_police 0x7f0700ec
+int drawable img_card_front_scientist 0x7f0700ed
+int drawable img_card_front_welder 0x7f0700ee
+int drawable img_memory_banner 0x7f0700ef
+int drawable img_memory_text 0x7f0700f0
 int drawable indeterminate_static 0x7f07009b
 int drawable m3_avd_hide_password 0x7f07009c
 int drawable m3_avd_show_password 0x7f07009d
@@ -3710,7 +3720,10 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_game 0x7f0b006c
+int layout activity_leaderboard 0x7f0b006d
 int layout activity_main 0x7f0b001c
+int layout activity_player 0x7f0b006e
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f

@@ -1,70 +1,126 @@
 [
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_police.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_police.png"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_memory_text.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_memory_text.png"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_leaderboard.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_leaderboard.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_astronaut.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_astronaut.png"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_artist.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_artist.png"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_player.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_player.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.assignmenttwo.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.assignmenttwo.app-debug-31:/layout_activity_main.xml.flat",
         "source": "com.example.assignmenttwo.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.assignmenttwo.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.assignmenttwo.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\layout_activity_game.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\layout\\activity_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_scientist.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_scientist.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_back.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_back.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_coder.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_coder.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_doctor.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_doctor.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_memory_banner.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_memory_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_img_card_front_welder.png.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\img_card_front_welder.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lucas\\.gradle\\daemon\\8.7\\com.example.assignmenttwo.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     }
 ]
