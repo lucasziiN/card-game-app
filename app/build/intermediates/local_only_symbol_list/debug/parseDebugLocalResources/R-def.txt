@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color purple
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -14,6 +15,7 @@ drawable img_card_front_scientist
 drawable img_card_front_welder
 drawable img_memory_banner
 drawable img_memory_text
+id et_playername
 id iv_card_0
 id iv_card_1
 id iv_card_10
@@ -27,7 +29,9 @@ id iv_card_7
 id iv_card_8
 id iv_card_9
 id main
+id rg_avatar
 id tv_num_guesses
+id tv_playerscore
 layout activity_game
 layout activity_leaderboard
 layout activity_main

@@ -2088,6 +2088,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -3286,6 +3287,7 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id et_playername
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3480,6 +3482,7 @@ id ratio
 id rectangles
 id report_drawn
 id reverseSawtooth
+id rg_avatar
 id right
 id rightToLeft
 id right_icon
@@ -3597,6 +3600,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_num_guesses
+id tv_playerscore
 id unchecked
 id uniform
 id unlabeled
