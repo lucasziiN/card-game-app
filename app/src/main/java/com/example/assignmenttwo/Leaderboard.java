@@ -1,6 +1,7 @@
 package com.example.assignmenttwo;
 
 import android.content.Context;
+import java.util.ArrayList;
 
 public class Leaderboard {
     private int[] IMG_ARRAY;
@@ -13,11 +14,14 @@ public class Leaderboard {
     }
 
     public Leaderboard getLeaderboardInstance() {
+        if (leaderboardInstance == null) {
+            leaderboardInstance = new Leaderboard();
+        }
         return leaderboardInstance;
     }
 
     public int[] getImageArray(){
-
+        return IMG_ARRAY;
     }
 
     public void updateLeaderboard(Player currentPlayer){

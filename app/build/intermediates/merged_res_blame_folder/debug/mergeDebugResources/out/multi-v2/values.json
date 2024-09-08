@@ -23,6 +23,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\lucasziN\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "1980",
+                        "startColumns": "4",
+                        "startOffsets": "131084",
+                        "endColumns": "50",
+                        "endOffsets": "131130"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lucasziN\\.gradle\\caches\\transforms-4\\2d0dc27397fe37bb494fe9615634a939\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -40,20 +57,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lucasziN\\OneDrive\\uni\\2024\\Semester B\\COMPX202\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\lucasziN\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "50",
-                        "endOffsets": "62"
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,139,97",
+                        "endColumns": "41,40,41",
+                        "endOffsets": "92,175,134"
                     },
                     "to": {
-                        "startLines": "1980",
-                        "startColumns": "4",
-                        "startOffsets": "131084",
-                        "endColumns": "50",
-                        "endOffsets": "131130"
+                        "startLines": "641,948,961",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "32859,55717,56576",
+                        "endColumns": "41,40,41",
+                        "endOffsets": "32896,55753,56613"
                     }
                 },
                 {
@@ -74,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lucasziN\\OneDrive\\uni\\2024\\Semester B\\COMPX202\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\lucasziN\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",
@@ -90,23 +107,6 @@
                         "endLines": "2482,6376",
                         "endColumns": "12,73",
                         "endOffsets": "173988,446495"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lucasziN\\OneDrive\\uni\\2024\\Semester B\\COMPX202\\AndroidStudioProjects\\AssignmentTwo\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,4,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,139,97",
-                        "endColumns": "41,40,41",
-                        "endOffsets": "92,175,134"
-                    },
-                    "to": {
-                        "startLines": "641,948,961",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "32859,55717,56576",
-                        "endColumns": "41,40,41",
-                        "endOffsets": "32896,55753,56613"
                     }
                 },
                 {

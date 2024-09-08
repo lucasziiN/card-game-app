@@ -29,12 +29,14 @@ public class GameActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Initialize the gamePlay object
-        gamePlay = new GamePlay(this);
+
+        startGame();
     }
 
     public void startGame(){
-        Toast.makeText(this,"Game Started", Toast.LENGTH_SHORT).show();
-
+        // Initialize the gamePlay object
+        gamePlay = new GamePlay(this);
+        //Toast.makeText(this,"Game Started", Toast.LENGTH_SHORT).show();
+        gamePlay.setupGame();
     }
 }

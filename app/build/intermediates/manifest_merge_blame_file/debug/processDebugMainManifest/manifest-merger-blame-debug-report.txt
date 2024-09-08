@@ -20,61 +20,61 @@
 15-->[androidx.core:core:1.13.0] C:\Users\lucasziN\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:5:5-33:19
+17-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:5:5-33:19
 18        android:allowBackup="true"
-18-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.13.0] C:\Users\lucasziN\.gradle\caches\transforms-4\278a9b808b4179588646977873ecae28\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:7:9-65
+20-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:8:9-54
+23-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:9:9-43
+24-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:10:9-41
+25-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:12:9-35
+27-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.AssignmentTwo" >
-29-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:13:9-51
+29-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:13:9-51
 30        <activity
-30-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:15:9-17:40
+30-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:15:9-17:40
 31            android:name="com.example.assignmenttwo.LeaderboardActivity"
-31-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:16:13-48
+31-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:16:13-48
 32            android:exported="false" />
-32-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:17:13-37
+32-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
-33-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:18:9-20:40
+33-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:18:9-20:40
 34            android:name="com.example.assignmenttwo.PlayerActivity"
-34-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:19:13-43
+34-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:19:13-43
 35            android:exported="false" />
-35-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:20:13-37
+35-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
-36-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:21:9-23:40
+36-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:21:9-23:40
 37            android:name="com.example.assignmenttwo.GameActivity"
-37-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:22:13-41
+37-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:22:13-41
 38            android:exported="false" />
-38-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:23:13-37
+38-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
-39-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:24:9-32:20
+39-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:24:9-32:20
 40            android:name="com.example.assignmenttwo.MainActivity"
-40-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:25:13-41
+40-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:25:13-41
 41            android:exported="true" >
-41-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:26:13-36
+41-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:26:13-36
 42            <intent-filter>
-42-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:27:13-31:29
+42-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:27:13-31:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:28:17-69
-43-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:28:25-66
+43-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:28:17-69
+43-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:28:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:30:17-77
-45-->C:\Users\lucasziN\OneDrive\uni\2024\Semester B\COMPX202\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:30:27-74
+45-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:30:17-77
+45-->C:\Users\lucasziN\AndroidStudioProjects\AssignmentTwo\app\src\main\AndroidManifest.xml:30:27-74
 46            </intent-filter>
 47        </activity>
 48
