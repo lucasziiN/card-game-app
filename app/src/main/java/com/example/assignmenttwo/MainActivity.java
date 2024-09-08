@@ -34,5 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclickLeaderboard(View v){
         Toast.makeText(this,"Leaderboard", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, LeaderboardActivity.class);
+        startActivity(intent);
     }
 }

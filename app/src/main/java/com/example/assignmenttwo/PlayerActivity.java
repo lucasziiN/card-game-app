@@ -1,6 +1,9 @@
 package com.example.assignmenttwo;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +12,12 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class PlayerActivity extends AppCompatActivity {
+
+    private int avatarID, playerScore;
+    private String playerName;
+    private Intent intent;
+    private Leaderboard leaderboardInstance;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +29,20 @@ public class PlayerActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onclickSubmit(View view){
+        Toast.makeText(this, "Submit", Toast.LENGTH_SHORT).show();
+
+        // Creating intent to navigate to LeaderboardActivity
+        intent = new Intent(PlayerActivity.this, LeaderboardActivity.class);
+
+        // Example of passing data to LeaderboardActivity
+        intent.putExtra("playerName", playerName);
+        intent.putExtra("playerScore", playerScore);
+        intent.putExtra("avatarID", avatarID);
+
+        // Start LeaderboardActivity with the data
+        startActivity(intent);
     }
 }

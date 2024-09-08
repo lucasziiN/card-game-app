@@ -10,6 +10,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class LeaderboardActivity extends AppCompatActivity {
 
+    private Leaderboard leaderboardInstance;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
