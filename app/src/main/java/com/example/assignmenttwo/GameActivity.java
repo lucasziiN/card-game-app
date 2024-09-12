@@ -35,7 +35,7 @@ public class GameActivity extends AppCompatActivity {
 
     public void startGame(){
         // Initialize the gamePlay object
-        gamePlay = new GamePlay(this);
+        gamePlay = new GamePlay(GameActivity.this);
         //Toast.makeText(this,"Game Started", Toast.LENGTH_SHORT).show();
         gamePlay.setupGame();
     }

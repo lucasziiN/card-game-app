@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import android.content.Intent;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -21,7 +22,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class GamePlay {
+public class GamePlay extends AppCompatActivity {
     private static final int MAX_MATCHES = 6;
     private int totalGuesses,totalCorrect = 0;
     private boolean isFirstGuess;
@@ -31,6 +32,7 @@ public class GamePlay {
     private ArrayList<Card> cards;
     private TextView textviewGuesses;
     private Context context;
+    private boolean isBusy = false;
 
     public GamePlay(Context context){
         this.context = context;
@@ -60,7 +62,7 @@ public class GamePlay {
         cards.add(new Card(11, "scientist", "img_card_back", "img_card_front_scientist"));
 
         // Shuffle the cards
-        Collections.shuffle(cards);
+        //Collections.shuffle(cards);
 
         setupImageviewsAndOnclicks();
         // Show a Toast for each card added
@@ -150,6 +152,10 @@ public class GamePlay {
 
     public void onclickCard(View view){
 
+        if (isBusy) {
+            return;  // Ignore clicks if the game is currently processing another pair
+        }
+
         // Get the card index from the tag
         int cardIndex = (int) view.getTag();
         Card clickedCard = cards.get(cardIndex);
@@ -173,27 +179,28 @@ public class GamePlay {
             isFirstGuess = false;
         } else {
             cardSecond = clickedCard;
-
+            isBusy = true;  // Set the busy flag since a pair is now selected
             // We have two cards selected, check if they match
             checkCardMatch();
-
-            // Increment the number of guesses
-            totalGuesses++;
-            updateGuessesTextview();  // Update the TextView to reflect the new guess count
 
 
             isFirstGuess = true;  // Reset the flag for the next turn
         }
 
         // Log the card or show a Toast
-        Toast.makeText(context, "Card clicked: " + clickedCard.getCardType(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(context, "Card clicked: " + clickedCard.getCardType(), Toast.LENGTH_SHORT).show();
         Log.d("GamePlay", "Card clicked: " + clickedCard.getCardType());
     }
 
     public void checkCardMatch(){
         // Ensure we have two cards to compare
         if (cardFirst != null && cardSecond != null) {
-            // If the two cards match (based on cardType or cardNum)
+
+            // Increment the number of guesses
+            totalGuesses++;
+            updateGuessesTextview();  // Update the TextView to reflect the new guess count
+
+            // If the two cards match (based on cardType)
             if (cardFirst.getCardType().equals(cardSecond.getCardType())) {
                 // The cards match - keep them face up and disable further clicks
                 cardFirst.getImageviewCard().setEnabled(false);  // Disable further clicks
@@ -210,32 +217,43 @@ public class GamePlay {
                 // Reset for the next pair
                 cardFirst = null;
                 cardSecond = null;
+
+                isBusy = false;  // Reset the busy flag
             } else {
-                // The cards don't match - flip them back after a delay
+                // If the cards don't match, flip them back after a delay
                 new android.os.Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        // Flip the cards back over after a short delay
                         displayCardFaceDown(cardFirst);
                         displayCardFaceDown(cardSecond);
 
-
-                        // Reset their state
                         cardFirst.setFaceUp(false);
                         cardSecond.setFaceUp(false);
 
-
-                        // Reset for the next pair
                         cardFirst = null;
                         cardSecond = null;
+
+                        isBusy = false;  // Reset the busy flag
                     }
                 }, 1000);  // Delay for 1 second (1000 ms)
             }
+
         }
     }
 
-    public void GameOver(){
-
+    public void GameOver() {
+        if (context == null) {
+            Log.d("GameOver", "Context is null");
+        } else {
+            Log.d("GameOver", "Context is valid: " + context.toString());
+            Log.d("GameOver", "Number of guesses: " + totalGuesses);
+            Intent intent = new Intent(context, PlayerActivity.class);
+            intent.putExtra("playerScore", totalGuesses);
+            context.startActivity(intent);
+        }
+        //Toast.makeText(context, "Game Over", Toast.LENGTH_SHORT).show();
+        //Intent intent = new Intent(context, PlayerActivity.class);
+        //startActivity(intent);
     }
 
     public Card getCardByCardNum(int cardNum){

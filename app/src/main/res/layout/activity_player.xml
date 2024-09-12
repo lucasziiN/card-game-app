@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:text="Coder"
-                android:tag="0">
+                android:tag="2">
 
             </RadioButton>
 
@@ -85,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:text="Artist"
-                android:tag="1">
+                android:tag="0">
 
             </RadioButton>
 
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:text="Astronaut"
-                android:tag="2">
+                android:tag="1">
 
             </RadioButton>
 
@@ -112,16 +112,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:text="Scientist"
-                android:tag="4">
-
-            </RadioButton>
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
-                android:text="Coder"
-                android:tag="0">
+                android:tag="5">
 
             </RadioButton>
         </RadioGroup>

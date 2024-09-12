@@ -29,13 +29,16 @@
         android:theme="@style/Theme.AssignmentTwo" >
         <activity
             android:name="com.example.assignmenttwo.LeaderboardActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name="com.example.assignmenttwo.PlayerActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name="com.example.assignmenttwo.GameActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:noHistory="true" />
         <activity
             android:name="com.example.assignmenttwo.MainActivity"
             android:exported="true" >
