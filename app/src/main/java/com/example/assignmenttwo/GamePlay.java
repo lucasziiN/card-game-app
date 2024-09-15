@@ -1,39 +1,38 @@
 package com.example.assignmenttwo;
 
-import java.util.Collections;
-import com.example.assignmenttwo.Card;
+
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import android.content.Intent;
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.Collections;
 
+/**
+ * The GamePlay class handles the logic for the memory card game, including managing
+ * the cards, tracking the user's guesses, and handling game events like matches and game over.
+ */
 public class GamePlay extends AppCompatActivity {
-    private static final int MAX_MATCHES = 6;
-    private int totalGuesses,totalCorrect = 0;
-    private boolean isFirstGuess;
-    private Card cardFirst;
-    private Card cardSecond;
-    private ArrayList<String> cardTypes;
-    private ArrayList<Card> cards;
-    private TextView textviewGuesses;
-    private Context context;
-    private boolean isBusy = false;
+    private static final int MAX_MATCHES = 6;  // The maximum number of matches required to win
+    private int totalGuesses, totalCorrect = 0;  // Tracks total guesses and correct matches
+    private boolean isFirstGuess;  // Flag to determine if it's the first or second card being guessed
+    private Card cardFirst;  // The first card selected in a guess
+    private Card cardSecond;  // The second card selected in a guess
+    private ArrayList<String> cardTypes;  // List of card types
+    private ArrayList<Card> cards;  // List of Card objects
+    private TextView textviewGuesses;  // TextView to display the number of guesses
+    private Context context;  // The context in which this gameplay occurs
+    private boolean isBusy = false;  // Flag to prevent actions while cards are being processed
 
+    /**
+     * Constructor to initialize the game with the context.
+     *
+     * @param context The context of the current activity
+     */
     public GamePlay(Context context){
         this.context = context;
         this.totalGuesses = 0;
@@ -46,6 +45,10 @@ public class GamePlay extends AppCompatActivity {
         textviewGuesses = ((GameActivity) context).findViewById(R.id.tv_num_guesses);
     }
 
+    /**
+     * Sets up the game by adding cards to the deck, shuffling them,
+     * and initializing the ImageView and click event listeners.
+     */
     public void setupGame(){
         // Add 6 unique cards and their pairs (6 pairs total = 12 cards)
         cards.add(new Card(0, "artist", "img_card_back", "img_card_front_artist"));
@@ -61,16 +64,16 @@ public class GamePlay extends AppCompatActivity {
         cards.add(new Card(10, "scientist", "img_card_back", "img_card_front_scientist"));
         cards.add(new Card(11, "scientist", "img_card_back", "img_card_front_scientist"));
 
-        // Shuffle the cards
-        //Collections.shuffle(cards);
+        // Shuffle cards
+        Collections.shuffle(cards);
 
         setupImageviewsAndOnclicks();
-        // Show a Toast for each card added
-        //for (Card card : cards) {
-        //    Toast.makeText(context, "Added card: " + card.getCardNum() + " - " + card.getCardType(), Toast.LENGTH_SHORT).show();
-        //}
+
     }
 
+    /**
+     * Sets up the ImageViews and OnClickListeners for each card.
+     */
     public void setupImageviewsAndOnclicks() {
         for (int i = 0; i < cards.size(); i++) {
             // Construct the ImageView ID dynamically
@@ -102,7 +105,11 @@ public class GamePlay extends AppCompatActivity {
         }
     }
 
-
+    /**
+     * Displays the front image of the card.
+     *
+     * @param card The card to be displayed face up
+     */
     public void displayCardFaceUp(Card card){
         // Get the front image resource ID
         int cardFrontResId = context.getResources().getIdentifier(card.getCardFront(), "drawable", context.getPackageName());
@@ -118,7 +125,12 @@ public class GamePlay extends AppCompatActivity {
         }
     }
 
-    public void displayCardFaceDown(Card card){
+    /**
+     * Displays the back image of the card.
+     *
+     * @param card The card to be displayed face down
+     */
+    public void displayCardFaceDown(Card card) {
         // Get the back image resource ID
         int cardBackResId = context.getResources().getIdentifier(card.getCardBack(), "drawable", context.getPackageName());
 
@@ -133,10 +145,11 @@ public class GamePlay extends AppCompatActivity {
         }
     }
 
-    public void displayCards(){
-
-    }
-
+    /**
+     * Flips the card (either face up or face down depending on its current state).
+     *
+     * @param card The card to be flipped
+     */
     public void flipCard(Card card){
         if (card.isFaceUp()) {
             // If the card is already face up, do nothing or flip it back down
@@ -150,6 +163,11 @@ public class GamePlay extends AppCompatActivity {
 
     }
 
+    /**
+     * Handles the event when a card is clicked by the user.
+     *
+     * @param view The view representing the clicked card
+     */
     public void onclickCard(View view){
 
         if (isBusy) {
@@ -160,9 +178,6 @@ public class GamePlay extends AppCompatActivity {
         int cardIndex = (int) view.getTag();
         Card clickedCard = cards.get(cardIndex);
 
-        Log.d("GamePlay", "Card clicked: " + clickedCard.getCardType() + " | isFaceUp: " + clickedCard.isFaceUp());
-
-
         // Don't allow flipping the same card twice
         if (clickedCard == cardFirst || clickedCard == cardSecond) {
             return;
@@ -170,8 +185,6 @@ public class GamePlay extends AppCompatActivity {
 
         // Flip the clicked card
         flipCard(clickedCard);
-
-        Log.d("GamePlay", "Card clicked: " + clickedCard.getCardType() + " | isFaceUp: " + clickedCard.isFaceUp());
 
         // Set the first or second card
         if (isFirstGuess) {
@@ -186,12 +199,12 @@ public class GamePlay extends AppCompatActivity {
 
             isFirstGuess = true;  // Reset the flag for the next turn
         }
-
-        // Log the card or show a Toast
-        //Toast.makeText(context, "Card clicked: " + clickedCard.getCardType(), Toast.LENGTH_SHORT).show();
-        Log.d("GamePlay", "Card clicked: " + clickedCard.getCardType());
     }
 
+    /**
+     * Checks if the two selected cards match. If they match, they remain face up.
+     * If not, they are flipped face down after a short delay.
+     */
     public void checkCardMatch(){
         // Ensure we have two cards to compare
         if (cardFirst != null && cardSecond != null) {
@@ -241,6 +254,10 @@ public class GamePlay extends AppCompatActivity {
         }
     }
 
+    /**
+     * Called when the game is over (all pairs matched).
+     * Starts a new activity to display the player's score.
+     */
     public void GameOver() {
         if (context == null) {
             Log.d("GameOver", "Context is null");
@@ -251,16 +268,11 @@ public class GamePlay extends AppCompatActivity {
             intent.putExtra("playerScore", totalGuesses);
             context.startActivity(intent);
         }
-        //Toast.makeText(context, "Game Over", Toast.LENGTH_SHORT).show();
-        //Intent intent = new Intent(context, PlayerActivity.class);
-        //startActivity(intent);
     }
 
-    public Card getCardByCardNum(int cardNum){
-        Card card = new Card(0, "artist", "img_card_back", "img_card_front_artist");
-        return card;
-    }
-
+    /**
+     * Updates the TextView displaying the number of guesses.
+     */
     public void updateGuessesTextview(){
         if (textviewGuesses != null) {
             textviewGuesses.setText("Guesses: " + totalGuesses);
